@@ -8,7 +8,7 @@ metadata:
     # is responsible for.
     heritage: {{ .Release.Service | quote }}
     # This makes it easy to search for all components of a release using kubectl.
-    release: "v{{ template "image_tag" .}}"
+    release: "{{ template "image_tag" .}}"
     # This makes it easy to audit chart usage.
     chart: "{{.Chart.Name}}-{{.Chart.Version}}"
 spec:
