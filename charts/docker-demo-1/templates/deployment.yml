@@ -21,6 +21,6 @@ spec:
     spec:
       containers:
         - name: docker-demo-1
-          image: jmeisner/docker-demo-1:{{ template "image_tag" .}}
+          image: jmeisner/docker-demo-1:v{{ .Release.Name }}
           ports:
           - containerPort: 80
