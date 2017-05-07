@@ -1,0 +1,8 @@
+name: docker-demo-1
+version: 0.0.1
+description: Flexible and powerful open source, distributed real-time search and analytics engine.
+sources:
+  - https://github.com/jmeisner3/docker-demo-1
+maintainers:
+  - name: Jerry Meisner
+    email: jmeisner3@gmail.com
